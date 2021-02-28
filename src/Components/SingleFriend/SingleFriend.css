@@ -1,0 +1,22 @@
+.allInfo {
+  display: flex;
+  border-bottom: 1px solid gray;
+  margin: 0% 2%;
+  padding: 2%;
+}
+.allInfo img {
+  width: 200px;
+}
+.detailInfo {
+  margin-left: 3%;
+  padding: 1%;
+}
+.addFriend {
+  width: 200px;
+  padding: 2%;
+  border-style: none;
+  background-color: green;
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+}

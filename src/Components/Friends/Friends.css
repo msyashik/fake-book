@@ -1,0 +1,7 @@
+.friendsTotalInfo {
+  display: flex;
+}
+.friendsInfoShow {
+  width: 70%;
+  border-right: 1px solid grey;
+}

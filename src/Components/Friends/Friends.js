@@ -23,7 +23,7 @@ const Friends = (props) => {
           ></SingleFriend>
         ))}
       </div>
-      <div className="friendsAdded">
+      <div style={{ width: "30%" }} className="friendsAdded">
         <FriendsCart friendsNow={friendsNow}></FriendsCart>
       </div>
     </div>

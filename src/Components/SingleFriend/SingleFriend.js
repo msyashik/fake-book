@@ -1,5 +1,8 @@
 import React from "react";
 import "./SingleFriend.css";
+import ReactDOM from "react-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPlus } from "@fortawesome/free-solid-svg-icons";
 
 const SingleFriend = (props) => {
   const addThisFriend = props.addThisFriend;
@@ -25,7 +28,7 @@ const SingleFriend = (props) => {
           onClick={() => addThisFriend(props.friendInfo)}
           className="addFriend"
         >
-          Add Friend
+          <FontAwesomeIcon icon={faPlus} /> Add Friend
         </button>
       </div>
     </div>

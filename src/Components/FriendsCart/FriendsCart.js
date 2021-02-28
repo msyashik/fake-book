@@ -8,7 +8,7 @@ const FriendsCart = (props) => {
     0
   );
   return (
-    <div>
+    <div className="friendsInfo">
       <h2>Listed Friends Info</h2>
       <p>Number of friends added: {friendsNow.length}</p>
       <p>Total salary of the aded friends: {totalSalary.toFixed(2)}</p>
